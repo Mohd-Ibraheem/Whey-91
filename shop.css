@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wlc {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+    height: 20px;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-item .nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+}
+
+.navi-icon i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-item .active {
+    /* color: #fff !important; */
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+}
+
+.hero {
+    width: 100%;
+    background-image: url('images/SHOP_All_Flavours_-_Website_Banner_Desktop_Ver.webp');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero h2 {
+    position: absolute;
+    color: #fff;
+    margin-top: 280px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.slid-img .card {
+    /* width: 400px; */
+    height: 495px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    margin: 20px;
+}
+
+.slid-img img {
+    border-radius: 10px;
+    height: 340px;
+    /* object-fit: contain; */
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: 700;
+    /* margin-bottom: 0px; */
+}
+
+.text-muted {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.text1-muted {
+    text-decoration: line-through;
+}
+
+.price1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.price1span {
+    color: #ef7f1a;
+    font-size: 11px;
+}
+
+.inclusive-text {
+    font-size: 10px;
+}
+
+.slid-btn button {
+    width: 170px;
+    background-color: #ef7f1a;
+    border: #ef7f1a;
+    padding: 10px 0px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: -18px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-sec {
+    width: 100%;
+    background-color: #191919;
+    /* padding-bottom: 50px; */
+    padding-top: 50px;
+}
+
+.footer-sec img {
+    width: 100px;
+}
+
+.footer-sec p {
+    color: #fff;
+    font-size: 12px
+}
+
+.footer-sec h6 {
+    color: #fff;
+}
+
+.footer-sec ul li {
+    list-style: none;
+    line-height: 30px;
+    color: #fff;
+}
+
+.footer-sec ul {
+    padding-left: 0px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f5f2f2;
+}
+
+
+
+/* media Query */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .slid-img .cart {
+        flex-direction: column;
+    }
+
+    .slid-btn button {
+        width: 100%;
+    }
+    .slid-img .card {
+        width: 100%;
+        height: 530px;
+        margin: auto;
+    }
+}

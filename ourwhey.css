@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wlc {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+    height: 20px;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-item .nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+}
+
+.navi-icon i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-item .active {
+    /* color: #fff !important; */
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+}
+
+.ourwhey-first {
+    background-image: url('images/our-whey-banner_baf6008f-c060-4dee-9d13-7c593830fff8.webp');
+    width: 100%;
+    height: 55vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.first-text {
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 100px;
+}
+
+.ourwhey-second {
+    width: 100%;
+    background-color: #fff5e9;
+    padding-top: 50px;
+    height: 80vh;
+}
+
+.ourwhey-second img {
+    width: 550px;
+    height: 500px;
+    margin-left: 30px;
+    object-fit: cover;
+}
+
+.ourwhey-second p {
+    font-size: 12px;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+}
+
+.nutration-sec {
+    width: 100%;
+    /* height: 60vh; */
+    padding-bottom: 60px;
+    padding-top: 40px;
+    background-color: #fff;
+}
+
+.nutr-text {
+    color: #dd5d00;
+}
+
+.nutration-sec p {
+    font-size: 14px;
+}
+
+.nutr-col p {
+    font-size: 14px;
+}
+
+.protein-sec {
+    width: 100%;
+    /* height: 60vh; */
+    padding: 120px 0px 120px 0px;
+    background-image: url('images/background_protien.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.protein-col img {
+    width: 300px;
+}
+
+.protein-text h2 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.protein-text p {
+    font-size: 12px;
+    color: #fff;
+}
+
+.field-sec {
+    padding: 40px 0px 60px 0px;
+}
+
+.field-col {
+    height: 150px;
+    width: 150px;
+    background: #ffebb8;
+    border-radius: 20px;
+}
+
+.footer-sec {
+    width: 100%;
+    background-color: #191919;
+    /* padding-bottom: 50px; */
+    padding-top: 50px;
+}
+
+.footer-sec img {
+    width: 100px;
+}
+
+.footer-sec p {
+    color: #fff;
+    font-size: 12px
+}
+
+.footer-sec h6 {
+    color: #fff;
+}
+
+.footer-sec ul li {
+    list-style: none;
+    color: #fff;
+    line-height: 30px;
+}
+
+.footer-sec ul {
+    padding-left: 0px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f5f2f2;
+}
+
+.footer-icon i {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .field-sec .row {
+        flex-wrap: nowrap;
+    }
+
+    .field-col {
+        width: 42% !important;
+    }
+
+}
+
+/* Media query */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .first-text {
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 44px;
+        font-size: 40px;
+    }
+.text-white{
+    font-size: 40px;
+}
+    .ourwhey-first {
+        height: 20vh;
+    }
+
+    .ourwhey-second {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .ourwhey-second img {
+        width: 100%;
+        height: 320px;
+        margin-left: 0px;
+    }
+
+    .nutr-col {
+        margin-left: 0px;
+        gap: 0rem !important;
+    }
+
+    /* .nutr-col img {
+        width: 100%;
+    } */
+
+    .nutr-col p {
+        font-size: 13px;
+        text-align: center;
+
+    }
+    .protein-sec {
+        padding-top: 100px;
+    }
+
+    .protein-col {
+        margin-left: 0px;
+    }
+
+    .protein-col img {
+        width: 100%;
+    }
+
+    .protein-text {
+        text-align: center;
+    }
+
+    .protein-text h2 {
+        font-size: 30px;
+    }
+
+    .protein-text p {
+        font-size: 15px;
+    }
+
+    .field-sec .row {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .field-sec h4{
+        font-size: 26px;
+    }
+
+    .field-col {
+        width: 100%;
+        margin-bottom: 22px;
+    }
+}

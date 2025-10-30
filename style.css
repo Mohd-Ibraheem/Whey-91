@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Nova+Cut&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: sans-serif; */
+}
+
+.wlc {
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-size: 12px;
+    height: 20px;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.nav-item .nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+}
+
+.navi-icon i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-item .active {
+    /* color: #fff !important; */
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+}
+
+.carousel-inner {
+    height: 70vh;
+}
+
+.carousel-text {
+    position: absolute;
+    color: #fff;
+    top: 150px;
+    margin-left: 70px;
+}
+
+.carousel-btn {
+    background-color: #ef7f1a;
+    border: #ef7f1a;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.carousel-text p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.mrq {
+    width: 100%;
+    height: 40px;
+    background-color: #ffe8bf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mrq img {
+    width: 20px;
+}
+
+.slider-sec {
+    padding-bottom: 60px;
+}
+
+.slid-img .card {
+    /* width: 400px; */
+    height: 495px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    margin: 20px;
+}
+
+.slid-img img {
+    border-radius: 10px;
+    height: 340px;
+    /* object-fit: contain; */
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: 700;
+    /* margin-bottom: 0px; */
+}
+
+.text-muted {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.text1-muted {
+    text-decoration: line-through;
+}
+
+.price1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.price1span {
+    color: #ef7f1a;
+    font-size: 11px;
+}
+
+.inclusive-text {
+    font-size: 10px;
+}
+
+.slid-btn button {
+    width: 170px;
+    background-color: #ef7f1a;
+    border: #ef7f1a;
+    padding: 10px 0px;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: -18px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #ef7f1a;
+    font-size: 40px;
+
+
+}
+
+.slick-prev {
+    right: 0;
+    left: auto;
+    margin-top: 50px;
+    margin-right: -25px;
+}
+
+.slick-dots {
+    /* bottom: -60px; */
+    display: none !important;
+}
+
+.protein-hero {
+
+    background-image: url('images/protein-bg.webp');
+    width: 100%;
+    padding-bottom: 50px;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.protein-row {
+    padding-top: 50px;
+}
+
+.protein-row ul,
+li {
+    font-size: 12px;
+}
+
+.lacto img {
+    width: 400px;
+    border-left-style: dotted;
+}
+
+.protein-hero2 {
+    width: 100%;
+    background-image: url('images/background-bar.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-bottom: 50px; */
+
+}
+
+.protien_bar {
+    padding-top: 60px;
+    color: #fff;
+}
+
+.bar img {
+    width: 450px;
+}
+
+.protien_bar button {
+    padding: 5px 18px 5px 18px;
+    font-weight: 500;
+    border: 1px solid #ef7f1a;
+    border-radius: 50px;
+    border-color: #ef7f1a;
+    font-size: 12px;
+    background: transparent;
+    color: #fff;
+}
+
+.protien_bar p {
+    font-size: 12px;
+}
+
+.whey91-sec {
+    width: 100%;
+    background-color: #ffe8bf;
+    height: 60vh;
+    /* padding-bottom: 100px; */
+
+}
+
+.whey91-sec .carousel-indicators {
+    margin-bottom: 15rem;
+}
+
+.card-whey {
+    width: 700px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+.quote i {
+    font-size: 30px;
+    color: #ffe8bf;
+    margin-top: 20px;
+}
+
+.whey91-sec-text {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.kamiya-text {
+    color: #ef7f1a;
+    padding-top: 20px;
+}
+
+.slid-whey91 {
+    width: 100%;
+    background-color: #fff;
+}
+
+.blog-sec {
+    /* padding-bottom: 50px; */
+}
+.blog-sec .card{
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     height: 545px;
+    border: none;
+    margin: 20px;
+}
+/* .card {
+    border: none;
+    box-shadow: 3px 15px 15px 3px #f5f2f2;
+} */
+
+.footer-sec {
+    width: 100%;
+    background-color: #191919;
+    /* padding-bottom: 50px; */
+    padding-top: 50px;
+}
+
+.footer-sec img {
+    width: 100px;
+}
+
+.footer-sec p {
+    color: #191919;
+    font-size: 12px
+}
+
+.footer-sec h6 {
+    color: #fff;
+}
+
+.footer-sec ul li {
+    list-style: none;
+    line-height: 30px;
+    color: #fff;
+}
+
+.footer-sec ul {
+    padding-left: 0px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f5f2f2;
+}
+
+.carousel-control-prev {
+    visibility: hidden;
+}
+
+.carousel-control-next {
+    visibility: hidden;
+}
+
+.footer-icon i {
+    color: #fff;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blog-sec img {
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.black-indi [data-bs-target] {
+    background-color:  #191919;
+}
+.blog-sec .card-text{
+font-size: 13px;
+}
